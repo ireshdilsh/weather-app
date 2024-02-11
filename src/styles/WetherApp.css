@@ -1,3 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Judson:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Segoe+UI:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-20px-bold: "DM Sans";
+  --headline-h2: "Playfair Display";
+  --font-segoe-ui: "Segoe UI";
+  --font-judson: Judson;
+  --font-josefin-sans: "Josefin Sans";
+  --body-16px-medium1: Inter;
+  --font-inria-sans: "Inria Sans";
+  --font-istok-web: "Istok Web";
+
+  /* font sizes */
+  --body-16px-medium-size: 16px;
+  --body-20px-bold-size: 20px;
+  --headline-h1-size: 100px;
+  --body-14px-medium-size: 14px;
+  --headline-h2-size: 55px;
+  --font-size-13xl-7: 32.7px;
+  --headline-h3-size: 24px;
+  --font-size-23xl-7: 42.7px;
+  --body-18px-regular-size: 18px;
+  --font-size-6xl: 25px;
+  --font-size-41xl: 60px;
+
+  /* Colors */
+  --neutral-01: #fff;
+  --neutral-061: #485460;
+  --color-darkslategray-100: #474747;
+  --neutral-06: #414536;
+  --neutral-07: #2c2f24;
+  --neutral-05: #737865;
+  --neutral-071: #182226;
+  --color-brown: #ad343e;
+  --neutral-02: #f9f9f7;
+  --neutral-03: #dbdfd0;
+  --neutral-04: #adb39e;
+  --color-black: #000;
+  --color-silver: #c0c0c0;
+  --primary-main: #ee5622;
+  --template-color-secondary: #4d592b;
+  --template-color-primary: #ed5700;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-xs: 12px;
+  --gap-mini: 15px;
+  --gap-116xl: 135px;
+  --gap-21xl: 40px;
+  --gap-101xl: 120px;
+  --gap-xl: 20px;
+  --gap-11xl: 30px;
+  --gap-26xl: 45px;
+  --gap-6xl: 25px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+  --gap-45xl: 64px;
+  --gap-13xl: 32px;
+  --gap-10xs: 3px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-13xl: 32px;
+  --padding-9xs: 4px;
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-99xl: 118px;
+  --br-xs: 12px;
+  --br-15xl: 34px;
+  --br-46xl: 65px;
+  --br-21xl: 40px;
+  --br-12xl: 31px;
+
+  /* Effects */
+  --effect: 0px 3px 59.57px rgba(0, 0, 0, 0.08);
+}
+body{
+   background-color: white;
+   height: 100%;
+   width: 100%;
+}
 .craiyon-205929-dreamy-blue-and-icon {
     position: absolute;
     top: 0;
@@ -34,7 +128,7 @@
   .celcius {
     position: absolute;
     top: 0;
-    left: 75px;
+    left: 140px;
     width: 49px;
     height: 86px;
   }
@@ -43,10 +137,12 @@
     position: absolute;
     top: 0;
     left: 0;
+  }.div33{
+    left: -40px;
   }
   .celcius-parent {
     top: 372px;
-    left: 163px;
+    left: 143px;
     width: 124px;
     height: 86px;
     font-family: var(--font-istok-web);
@@ -84,7 +180,8 @@
     font-size: var(--font-size-6xl);
   }
   .craiyon-205929-dreamy-blue-and-parent {
-    width: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 450px;
     position: relative;
     border-radius: var(--br-12xl);
     background-color: var(--neutral-01);
@@ -94,5 +191,30 @@
     font-size: var(--font-size-41xl);
     color: var(--neutral-01);
     font-family: var(--font-inria-sans);
+   margin-left: 540px;
+   margin-top: 60px;
+  }input{
+    width: 250px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-radius: 150px;
+    position: absolute;
+    left: 35px;
+    top: 20px;
+    padding: 0 15px;
+    background-color: #E9F6FF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }button{
+    position: absolute;
+    left: 350px;
+    top: 20px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 360px;
+    cursor: pointer;
+    background-color: #E9F6FF;
   }
   
