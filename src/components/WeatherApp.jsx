@@ -42,7 +42,7 @@ const WeatherApp = () => {
       src={img1}
     />
 
-    <input type="text" placeholder="Search" required onChange={handleCity}/>
+    <input type="text" placeholder="Enter County or City you Want ?" required onChange={handleCity}/>
     <button type="submit" onClick={search}>
     <i class="fa-solid fa-magnifying-glass"></i>
     </button>
