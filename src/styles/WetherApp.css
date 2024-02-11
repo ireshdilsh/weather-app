@@ -1,0 +1,98 @@
+.craiyon-205929-dreamy-blue-and-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-12xl);
+    width: 450px;
+    height: 600px;
+    object-fit: cover;
+  }
+  .ios-weather-1-icon {
+    position: absolute;
+    top: 102px;
+    left: 85px;
+    width: 279.1px;
+    height: 250px;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .c,
+  .celcius-child {
+    position: absolute;
+    top: 0;
+    left: 7px;
+  }
+  .celcius-child {
+    left: 0;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid var(--neutral-01);
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+  }
+  .celcius {
+    position: absolute;
+    top: 0;
+    left: 75px;
+    width: 49px;
+    height: 86px;
+  }
+  .celcius-parent,
+  .div33 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .celcius-parent {
+    top: 372px;
+    left: 163px;
+    width: 124px;
+    height: 86px;
+    font-family: var(--font-istok-web);
+  }
+  .london {
+    position: absolute;
+    top: 458px;
+    left: 159px;
+    font-size: 40px;
+  }
+  .div34,
+  .wind1 {
+    position: absolute;
+    top: 5px;
+    left: 123px;
+  }
+  .wind1 {
+    left: 51px;
+  }
+  .phwind-duotone-icon,
+  .wind {
+    position: absolute;
+    height: 40px;
+  }
+  .phwind-duotone-icon {
+    top: 0;
+    left: 0;
+    width: 42px;
+    overflow: hidden;
+  }
+  .wind {
+    top: 534px;
+    left: 41px;
+    width: 150px;
+    font-size: var(--font-size-6xl);
+  }
+  .craiyon-205929-dreamy-blue-and-parent {
+    width: 100%;
+    position: relative;
+    border-radius: var(--br-12xl);
+    background-color: var(--neutral-01);
+    height: 600px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-41xl);
+    color: var(--neutral-01);
+    font-family: var(--font-inria-sans);
+  }
+  
